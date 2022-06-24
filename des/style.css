@@ -1,0 +1,370 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+border-color: black;
+font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    background-color: black;
+   flex-flow: row wrap;
+ justify-content: space-between;
+ position: -webkit-sticky;
+  position: sticky;
+ 
+ 
+}
+nav
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+ul li a{
+    color: aliceblue;
+}
+form i{
+    color: azure;
+}
+
+
+.write-part{
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+ 
+    
+}
+
+.wp{
+    color: aliceblue;
+}
+
+
+.img-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+}
+.img-part>div{
+    margin: 20px;
+      font-size: 30px;
+      padding: 2px;
+
+}
+.img-bg{
+    color: white;
+    background-color: #303030;
+    text-align: center;
+}
+
+
+#hero{
+   
+    background-image: url(../picture/hero.png);
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    color: white;
+    height: 100vh;
+
+
+
+}
+.containerr{
+    
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    margin-top: 300px;
+    width: 50%;
+   padding: 20px;
+    
+    
+
+}
+.containerr button{
+    margin: 10px;
+    background-color: #e8631c;
+    padding: 8px;
+    width: 30%;
+    text-decoration-line: none;
+    border-style: none;
+    border-radius: 9px;
+
+
+}
+
+
+#dancing{
+    
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e8631c;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+
+}
+
+
+#prining{
+    
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+
+}
+
+
+.img-dg{
+    color: white;
+    background-color:#e8631c;
+    text-align: center;
+}
+.img-part button{
+    margin: 10px;
+    background-color: black;
+    padding: 8px;
+    width: 30%;
+    text-decoration-line: none;
+    border-style: none;
+    border-radius: 9px;
+    color: aliceblue;
+}
+
+
+#arining{
+    
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+
+}
+.img-part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+   
+}
+
+
+.img-ag img{
+ 
+    border-image: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 650px;
+    
+}
+.img-awg{
+
+    background-color: #e8631c;
+    border-image: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 650px;
+align-items: center;
+align-content: center;
+display: flex;
+flex-flow: column;
+justify-content: center;
+color: white;
+   
+}
+
+.img-awg button {
+    
+    background-color: black;
+    color: white;
+    padding: 5px 8px;
+    width: 160px;
+    margin: 45px;
+}
+
+
+
+#oprining{
+    
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    height: 100vh;
+
+
+}
+.img-opart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: aliceblue;
+
+    margin: 50px;
+    
+
+}
+
+.img-og{
+
+    margin: 50px;justify-content: space-between;
+}
+.og h1 p{
+    display: flex;
+    color: white;
+    justify-content: center;
+   
+  }
+
+
+
+  #bhero{
+   
+    background-image: url(../picture/bgt.png);
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    color: white;
+    height:970px;
+    margin-top: -3px;
+}
+
+.hcontainerr{
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    
+    flex-flow: column;
+    width: 100%;
+    margin: 25px;
+}
+
+
+#shero{
+   background-color: #f26423;
+    width: 100%;
+    
+    display: flex;
+    color: white;
+    height:100vh;
+    align-content: center;
+    align-items: center;
+   
+}
+
+.scontainerr{
+    display: flex;
+    align-items: center;
+       justify-content: center;
+        flex-flow: column;
+    width: 100%;
+       align-content: center;
+}
+
+
+.sin {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.sin button {
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+
+.sin input{
+    border-style: none;
+    margin-top: 20px;
+
+    
+}
+input::placeholder{
+    text-align: center;
+    padding: 0px 30px;
+}
+
+
+
+
+footer{
+    display: flex;
+    
+   
+
+
+}
+
+.ccontainer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+}
+ 
+.img-fpart{
+   background-color: black;
+    width: 100%;
+    flex-flow: row;
+    display: flex;
+    color: white;
+    align-content: center;
+   align-items: stretch;
+   justify-content: space-between;
+    padding: 30px;
+    
+
+
+}
+.img-fg ul li{
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
